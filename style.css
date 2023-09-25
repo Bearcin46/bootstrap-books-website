@@ -1,15 +1,25 @@
 .bg-shadow{
-    box-shadow: 5px 15px 20px rgba(226, 216, 99, 0.753);
+    box-shadow: 10px 20px 30px rgba(238, 224, 66, 0.753);
+}
+.bg-first{
+    box-shadow: 10px 20px 20px rgba(30, 30, 25, 0.753);
 }
 .bg-back{
-    background-color:rgba(23, 22, 14, 0.753) ;
+    background-color:#006994 ;
 }
 .point{
     cursor: pointer;
     transition: 1s;
 }
 .point:hover{
-    transform: scaleY(1.1);
+    transform: scaleY(0.75);
+}
+.points{
+    cursor: pointer;
+    transition: 1s;
+}
+.points:hover{
+    transform: scale(1.05);
 }
 .pointer{
     cursor: pointer !important;
@@ -35,4 +45,8 @@ footer{
     justify-content: center;
     color: aliceblue;
     
+}
+.bg-grey{
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+ background-blend-mode: normal, lighten, soft-light;
 }
